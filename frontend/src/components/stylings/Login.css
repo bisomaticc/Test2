@@ -1,0 +1,27 @@
+
+  
+  .input-class {
+    display: flex;
+    flex-direction: column; /* Aligns children vertically */
+    gap: 1em; /* Adds space between elements */
+  }
+  
+  .input-class button {
+    margin-top: 1em; /* Moves the button to the next line with some space above */
+  }
+  
+  table {
+    width: 100%; /* Make the table take the full width */
+    border-collapse: collapse; /* Ensure table borders collapse into one */
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd; /* Add borders to table cells */
+    padding: 8px; /* Add padding to table cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  table th {
+    background-color: #f2f2f2; /* Light gray background for table headers */
+  }
+  

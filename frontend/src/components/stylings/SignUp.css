@@ -1,0 +1,50 @@
+.form-container {
+  /* max-width: 600px; */
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.input-class {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-class label {
+  margin-top: 10px;
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+.input-class input,
+.input-class select {
+  padding: 8px; /* Adjust padding for compact size */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-class .row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-class .row > * {
+  flex: 1; /* Allow the input and button to grow but be constrained */
+}
+
+.input-class .row > select {
+  flex: 2; /* Make select field a bit larger than the button */
+}
+
+.input-class button {
+  padding: 8px 16px; /* Adjust padding for compact size */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-class button:hover {
+  background-color: #0056b3;
+}
